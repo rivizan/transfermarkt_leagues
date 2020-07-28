@@ -58,4 +58,4 @@ milista <- lapply(ligas, get_torneo)
 
 finalDF <- bind_rows(milista)
 
-write.csv(finalDF, "data.csv")
+write.csv(finalDF, "data/data.csv")
