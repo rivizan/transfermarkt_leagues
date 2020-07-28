@@ -3,7 +3,7 @@ README
 
 # Transfer Markt scraping with R
 
-This small project collects football data from Transfer Markt and saves it in the `data` folder. Today it is only getting information from the teams that play on the American continent, but more will be added in the near future.
+This small project collects football data from Transfer Markt and saves it in the `data` folder. Today it is only getting information from the teams that play on the American continent, but more leagues will be added in the near future.
 
 The `data.csv` file contains the result of the process. The information of each column is presented in the following trable:
 
