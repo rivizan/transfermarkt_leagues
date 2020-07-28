@@ -33,7 +33,7 @@ get_torneo <- function(x) {
   
   mihtml <- read_html(link)
   
-  leage <- mihtml %>%
+  league <- mihtml %>%
     html_node('h1.spielername-profil') %>%
     html_text()
   
@@ -49,9 +49,9 @@ get_torneo <- function(x) {
     select(-no) %>%
     slice(-1) %>%
     mutate(Foreigners = as.numeric(Foreigners), 
-           Leage = leage,
+           League = league,
            Country = cntry) %>%  
-    select(Country, Leage, Club, Name, Squad, XAge, Foreigners, MV, XMV)
+    select(Country, League, Club, Name, Squad, XAge, Foreigners, MV, XMV)
 }
 
 milista <- lapply(ligas, get_torneo)
