@@ -5,7 +5,7 @@ README
 
 This small project collects football data from Transfer Markt and saves it in the `data` folder. Today it is only getting information from the teams that play on the American continent, but more will be added in the near future.
 
-The `data.csv` contains the result of the process. The information of each column is presented in the following trable:
+The `data.csv` file contains the result of the process. The information of each column is presented in the following trable:
 
 | Variable    | Class | Description                 |
 |-------------|-------|-----------------------------|
