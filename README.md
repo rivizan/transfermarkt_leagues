@@ -11,7 +11,7 @@ The `data.csv` file contains the result of the process. The information of each 
 |-------------|-------|-----------------------------|
 | `Country`   | `chr` | Country of the team         |
 | `League`    | `chr` | League                      |
-| `Club`      | `chr` | Oficial name of the club    |
+| `Club`      | `chr` | Official name of the club    |
 | `Name`      | `chr` | Short name of the club      |
 | `Squad`     | `int` | Number of players           |
 | `XAge`      | `num` | Average age of players      |
